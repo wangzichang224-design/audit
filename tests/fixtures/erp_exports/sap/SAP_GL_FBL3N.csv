@@ -1,0 +1,6 @@
+Company Code,Document Number,Line Item,Posting Date,G/L Account,G/L Acct Long Text,Text,Debit,Credit,Currency,Customer,Vendor,Material,Asset,Trading Partner
+1000,490000001,1,2025-12-31,100201,Bank Deposit CMB,Year-end bank receipt,500000,0,CNY,C001,,,,Client A
+1000,490000002,1,2025-12-29,660201,Management Expense,Consulting fee sample,1250000,0,CNY,,,,"",Supplier A
+1000,490000003,1,2025-12-28,600101,Main Business Revenue,Revenue cutoff sample,0,8600000,CNY,C001,,,,"Client A"
+1000,490000004,1,2025-12-27,220201,Accounts Payable,Vendor payable sample,0,900000,CNY,,V001,,,"Supplier A"
+1000,490000005,1,2025-12-26,112201,Accounts Receivable,Customer receivable sample,2200000,0,CNY,C001,,,,"Client A"

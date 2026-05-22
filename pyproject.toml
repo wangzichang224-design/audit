@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auditpaper-agent"
+version = "0.1.0"
+description = "AuditPaper-Agent: sensing, audit logic, and controlled Excel workpaper writing."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "openpyxl>=3.1.0",
+  "pandas>=2.0.0",
+  "pydantic>=2.0.0",
+  "pypdf>=4.0.0",
+  "python-dotenv>=1.0.0",
+  "rich>=13.0.0",
+  "streamlit>=1.36.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+auditpaper = "auditpaper_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["auditpaper_agent*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

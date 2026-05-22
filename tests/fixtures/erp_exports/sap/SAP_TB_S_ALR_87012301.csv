@@ -1,0 +1,7 @@
+SAP Trial Balance Export,,,,,,
+Company Code,G/L Account,G/L Acct Long Text,Ending Balance,Debit/Credit,Currency,Prior Year
+1000,100201,Bank Deposit CMB,11448673.71,Debit,CNY,9800000
+1000,112201,Accounts Receivable,2200000,Debit,CNY,1600000
+1000,150301,Trading Financial Assets,1200000,Debit,CNY,0
+1000,660201,Management Expense,1250000,Debit,CNY,900000
+1000,600101,Main Business Revenue,8600000,Credit,CNY,7200000
